@@ -1,0 +1,80 @@
+@charset "utf8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    border: solid 1px;
+}
+
+.Leve{
+    background-color: #baeb6c;
+    border: solid #76cf2d 3px;
+}
+
+.Média{
+    background-color: #fdff97;
+    border: solid #eef10e 3px;
+}
+
+.Grave{
+    background-color: #d3982a;
+    border: solid #b88700 3px;
+}
+
+.Gravíssima{
+    background-color: #000;
+    border: solid #000 3px;
+    color: #fff;
+}
+
+.Leve, .Média, .Grave, .Gravíssima{
+    float: left;
+    width: 350px;
+    height: 360px;
+    margin: 10px;
+
+    border-radius: 10px;
+}
+
+.proprietario{
+    text-align: center;
+    border-bottom: solid 1px;
+    padding: 10px;
+}
+
+.image, .pts, .emissao{
+    float: left;
+}
+
+.image{
+    margin: 5px;
+}
+
+.pts{
+    padding: 45px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.emissao{
+    border-top: solid 1px;
+    text-align: center;
+}
+
+.line{
+    margin: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+span{
+    margin: 10px;
+}
+
+footer{
+    clear: both;
+}
